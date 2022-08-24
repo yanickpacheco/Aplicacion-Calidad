@@ -39,7 +39,8 @@ Partial Class frmMenu
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CalidadToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1067, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -47,53 +48,52 @@ Partial Class frmMenu
         '
         Me.CalidadToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EvaluacionesPendientesAevaluar, Me.DetalleVentasToolStripMenuItem, Me.CambiarEstadoYObservaciónToolStripMenuItem, Me.ModificarDatosToolStripMenuItem, Me.RevisarRegistrosToolStripMenuItem, Me.MarcarNNToolStripMenuItem})
         Me.CalidadToolStripMenuItem.Name = "CalidadToolStripMenuItem"
-        Me.CalidadToolStripMenuItem.Size = New System.Drawing.Size(108, 24)
+        Me.CalidadToolStripMenuItem.Size = New System.Drawing.Size(87, 20)
         Me.CalidadToolStripMenuItem.Text = "Evaluaciones"
         '
         'EvaluacionesPendientesAevaluar
         '
         Me.EvaluacionesPendientesAevaluar.Name = "EvaluacionesPendientesAevaluar"
-        Me.EvaluacionesPendientesAevaluar.Size = New System.Drawing.Size(318, 26)
+        Me.EvaluacionesPendientesAevaluar.Size = New System.Drawing.Size(253, 22)
         Me.EvaluacionesPendientesAevaluar.Text = "Evaluaciones pendientes a evaluar"
         '
         'DetalleVentasToolStripMenuItem
         '
         Me.DetalleVentasToolStripMenuItem.Name = "DetalleVentasToolStripMenuItem"
-        Me.DetalleVentasToolStripMenuItem.Size = New System.Drawing.Size(318, 26)
+        Me.DetalleVentasToolStripMenuItem.Size = New System.Drawing.Size(253, 22)
         Me.DetalleVentasToolStripMenuItem.Text = "Detalle Ventas"
         '
         'CambiarEstadoYObservaciónToolStripMenuItem
         '
         Me.CambiarEstadoYObservaciónToolStripMenuItem.Name = "CambiarEstadoYObservaciónToolStripMenuItem"
-        Me.CambiarEstadoYObservaciónToolStripMenuItem.Size = New System.Drawing.Size(318, 26)
+        Me.CambiarEstadoYObservaciónToolStripMenuItem.Size = New System.Drawing.Size(253, 22)
         Me.CambiarEstadoYObservaciónToolStripMenuItem.Text = "Cambiar estado y observación"
         '
         'ModificarDatosToolStripMenuItem
         '
         Me.ModificarDatosToolStripMenuItem.Name = "ModificarDatosToolStripMenuItem"
-        Me.ModificarDatosToolStripMenuItem.Size = New System.Drawing.Size(318, 26)
+        Me.ModificarDatosToolStripMenuItem.Size = New System.Drawing.Size(253, 22)
         Me.ModificarDatosToolStripMenuItem.Text = "Modificar Datos"
         '
         'RevisarRegistrosToolStripMenuItem
         '
         Me.RevisarRegistrosToolStripMenuItem.Name = "RevisarRegistrosToolStripMenuItem"
-        Me.RevisarRegistrosToolStripMenuItem.Size = New System.Drawing.Size(318, 26)
+        Me.RevisarRegistrosToolStripMenuItem.Size = New System.Drawing.Size(253, 22)
         Me.RevisarRegistrosToolStripMenuItem.Text = "Revisar Registros"
         '
         'MarcarNNToolStripMenuItem
         '
         Me.MarcarNNToolStripMenuItem.Name = "MarcarNNToolStripMenuItem"
-        Me.MarcarNNToolStripMenuItem.Size = New System.Drawing.Size(318, 26)
+        Me.MarcarNNToolStripMenuItem.Size = New System.Drawing.Size(253, 22)
         Me.MarcarNNToolStripMenuItem.Text = "Marcar NN"
         '
         'frmMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmMenu"

@@ -52,7 +52,9 @@ Partial Class frmModificacionDatos
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtSuministro = New System.Windows.Forms.TextBox()
         Me.lblSuministro = New System.Windows.Forms.Label()
+        Me.btnActualizarT = New System.Windows.Forms.Button()
         Me.tbpAdicional = New System.Windows.Forms.TabPage()
+        Me.btnActualizaA = New System.Windows.Forms.Button()
         Me.dtgAdicionales = New System.Windows.Forms.DataGridView()
         Me.seleccione = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.Nro_Adicional = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -115,7 +117,9 @@ Partial Class frmModificacionDatos
         Me.txtNombreBenef = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
+        Me.btnActualizarB = New System.Windows.Forms.Button()
         Me.tbpPolizas = New System.Windows.Forms.TabPage()
+        Me.btnActualizarP = New System.Windows.Forms.Button()
         Me.gpbDatosPolizas = New System.Windows.Forms.GroupBox()
         Me.txtIdPoliza = New System.Windows.Forms.TextBox()
         Me.Label30 = New System.Windows.Forms.Label()
@@ -169,10 +173,6 @@ Partial Class frmModificacionDatos
         Me.ContactosTableAdapter = New Aplicacion_Calidad.DataSetEncuestasTableAdapters.ContactosTableAdapter()
         Me.btnVolver = New System.Windows.Forms.Button()
         Me.btnBuscar = New System.Windows.Forms.Button()
-        Me.btnActualizarT = New System.Windows.Forms.Button()
-        Me.btnActualizaA = New System.Windows.Forms.Button()
-        Me.btnActualizarB = New System.Windows.Forms.Button()
-        Me.btnActualizarP = New System.Windows.Forms.Button()
         Me.tbcDatos.SuspendLayout()
         Me.tbpTitular.SuspendLayout()
         Me.gpbTitularDatos.SuspendLayout()
@@ -483,6 +483,18 @@ Partial Class frmModificacionDatos
         Me.lblSuministro.TabIndex = 44
         Me.lblSuministro.Text = "N° Suministro"
         '
+        'btnActualizarT
+        '
+        Me.btnActualizarT.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActualizarT.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
+        Me.btnActualizarT.Location = New System.Drawing.Point(332, 415)
+        Me.btnActualizarT.Name = "btnActualizarT"
+        Me.btnActualizarT.Size = New System.Drawing.Size(151, 53)
+        Me.btnActualizarT.TabIndex = 39
+        Me.btnActualizarT.Text = "Actualizar"
+        Me.btnActualizarT.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btnActualizarT.UseVisualStyleBackColor = True
+        '
         'tbpAdicional
         '
         Me.tbpAdicional.Controls.Add(Me.btnActualizaA)
@@ -496,6 +508,18 @@ Partial Class frmModificacionDatos
         Me.tbpAdicional.TabIndex = 1
         Me.tbpAdicional.Text = "Adicional"
         Me.tbpAdicional.UseVisualStyleBackColor = True
+        '
+        'btnActualizaA
+        '
+        Me.btnActualizaA.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActualizaA.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
+        Me.btnActualizaA.Location = New System.Drawing.Point(334, 415)
+        Me.btnActualizaA.Name = "btnActualizaA"
+        Me.btnActualizaA.Size = New System.Drawing.Size(151, 53)
+        Me.btnActualizaA.TabIndex = 66
+        Me.btnActualizaA.Text = "Actualizar"
+        Me.btnActualizaA.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btnActualizaA.UseVisualStyleBackColor = True
         '
         'dtgAdicionales
         '
@@ -820,7 +844,7 @@ Partial Class frmModificacionDatos
         Me.dtgBeneficiario.AllowUserToDeleteRows = False
         Me.dtgBeneficiario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dtgBeneficiario.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.seleccioneBenef, Me.nroBeneficario, Me.rutBeneficiario, Me.dvBeneficiario, Me.nombreBeneficiario, Me.paternoBeneficiario, Me.maternoBeneficiario, Me.fechaNacimientoBeneficiario, Me.idParentescoBeneficiario, Me.parentescoBeneficiario, Me.pesoBeneficiario, Me.estaturaBeneficiario, Me.sistemaSaludBeneficiario})
-        Me.dtgBeneficiario.Location = New System.Drawing.Point(16, 9)
+        Me.dtgBeneficiario.Location = New System.Drawing.Point(17, 9)
         Me.dtgBeneficiario.Name = "dtgBeneficiario"
         Me.dtgBeneficiario.ReadOnly = True
         Me.dtgBeneficiario.RowHeadersVisible = False
@@ -1048,6 +1072,18 @@ Partial Class frmModificacionDatos
         Me.Label20.TabIndex = 51
         Me.Label20.Text = "Nombre"
         '
+        'btnActualizarB
+        '
+        Me.btnActualizarB.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActualizarB.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
+        Me.btnActualizarB.Location = New System.Drawing.Point(332, 415)
+        Me.btnActualizarB.Name = "btnActualizarB"
+        Me.btnActualizarB.Size = New System.Drawing.Size(151, 53)
+        Me.btnActualizarB.TabIndex = 67
+        Me.btnActualizarB.Text = "Actualizar"
+        Me.btnActualizarB.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btnActualizarB.UseVisualStyleBackColor = True
+        '
         'tbpPolizas
         '
         Me.tbpPolizas.Controls.Add(Me.btnActualizarP)
@@ -1059,6 +1095,18 @@ Partial Class frmModificacionDatos
         Me.tbpPolizas.TabIndex = 3
         Me.tbpPolizas.Text = "Polizas"
         Me.tbpPolizas.UseVisualStyleBackColor = True
+        '
+        'btnActualizarP
+        '
+        Me.btnActualizarP.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnActualizarP.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
+        Me.btnActualizarP.Location = New System.Drawing.Point(332, 417)
+        Me.btnActualizarP.Name = "btnActualizarP"
+        Me.btnActualizarP.Size = New System.Drawing.Size(151, 53)
+        Me.btnActualizarP.TabIndex = 69
+        Me.btnActualizarP.Text = "Actualizar"
+        Me.btnActualizarP.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
+        Me.btnActualizarP.UseVisualStyleBackColor = True
         '
         'gpbDatosPolizas
         '
@@ -1530,54 +1578,6 @@ Partial Class frmModificacionDatos
         Me.btnBuscar.Text = "Buscar"
         Me.btnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         Me.btnBuscar.UseVisualStyleBackColor = True
-        '
-        'btnActualizarT
-        '
-        Me.btnActualizarT.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnActualizarT.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
-        Me.btnActualizarT.Location = New System.Drawing.Point(332, 415)
-        Me.btnActualizarT.Name = "btnActualizarT"
-        Me.btnActualizarT.Size = New System.Drawing.Size(151, 53)
-        Me.btnActualizarT.TabIndex = 39
-        Me.btnActualizarT.Text = "Actualizar"
-        Me.btnActualizarT.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.btnActualizarT.UseVisualStyleBackColor = True
-        '
-        'btnActualizaA
-        '
-        Me.btnActualizaA.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnActualizaA.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
-        Me.btnActualizaA.Location = New System.Drawing.Point(334, 415)
-        Me.btnActualizaA.Name = "btnActualizaA"
-        Me.btnActualizaA.Size = New System.Drawing.Size(151, 53)
-        Me.btnActualizaA.TabIndex = 66
-        Me.btnActualizaA.Text = "Actualizar"
-        Me.btnActualizaA.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.btnActualizaA.UseVisualStyleBackColor = True
-        '
-        'btnActualizarB
-        '
-        Me.btnActualizarB.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnActualizarB.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
-        Me.btnActualizarB.Location = New System.Drawing.Point(332, 415)
-        Me.btnActualizarB.Name = "btnActualizarB"
-        Me.btnActualizarB.Size = New System.Drawing.Size(151, 53)
-        Me.btnActualizarB.TabIndex = 67
-        Me.btnActualizarB.Text = "Actualizar"
-        Me.btnActualizarB.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.btnActualizarB.UseVisualStyleBackColor = True
-        '
-        'btnActualizarP
-        '
-        Me.btnActualizarP.Font = New System.Drawing.Font("Consolas", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnActualizarP.Image = Global.Aplicacion_Calidad.My.Resources.Resources._036_edit___copia
-        Me.btnActualizarP.Location = New System.Drawing.Point(332, 417)
-        Me.btnActualizarP.Name = "btnActualizarP"
-        Me.btnActualizarP.Size = New System.Drawing.Size(151, 53)
-        Me.btnActualizarP.TabIndex = 69
-        Me.btnActualizarP.Text = "Actualizar"
-        Me.btnActualizarP.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
-        Me.btnActualizarP.UseVisualStyleBackColor = True
         '
         'frmModificacionDatos
         '
